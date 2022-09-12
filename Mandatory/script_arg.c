@@ -62,8 +62,5 @@ char	*ft_cleaner(char *str)
 
 char	*ft_script(char *str)
 {
-	size_t	len;
-
-	len = ft_strlen(str) - 1;
 	return (ft_cleaner(str));
 }
