@@ -9,7 +9,7 @@
 /*   Updated: 2022/08/04 13:39:02 by jcheel-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "pipex.h"
+#include "../inc/pipex.h"
 
 static int	split_len(char *str)
 {

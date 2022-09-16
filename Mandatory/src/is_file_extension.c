@@ -9,7 +9,7 @@
 /*   Updated: 2022/08/04 14:07:11 by jcheel-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "pipex.h"
+#include "../inc/pipex.h"
 
 int	is_file_extension(char *file, char *type)
 {

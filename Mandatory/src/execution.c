@@ -9,7 +9,7 @@
 /*   Updated: 2022/08/03 12:31:45 by jcheel-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "pipex.h"
+#include "../inc/pipex.h"
 
 void	execute_command(char *command, char **env)
 {

@@ -9,7 +9,7 @@
 /*   Updated: 2022/08/03 12:26:36 by jcheel-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "pipex.h"
+#include "../inc/pipex.h"
 
 static void	ft_copy(char *new, char *str)
 {
@@ -62,5 +62,8 @@ char	*ft_cleaner(char *str)
 
 char	*ft_script(char *str)
 {
+	size_t	len;
+
+	len = ft_strlen(str) - 1;
 	return (ft_cleaner(str));
 }

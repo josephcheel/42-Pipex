@@ -9,8 +9,7 @@
 /*   Updated: 2022/06/30 13:16:10 by jcheel-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
-#include "pipex.h"
+#include "../inc/pipex.h"
 
 void	second_child(t_pipex pipex, char **av, char **env)
 {

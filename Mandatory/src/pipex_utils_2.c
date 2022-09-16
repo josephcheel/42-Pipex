@@ -9,7 +9,7 @@
 /*   Updated: 2022/08/04 13:22:01 by jcheel-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "pipex.h"
+#include "../inc/pipex.h"
 
 void	*ft_memcpy(void *dst, const void *src, size_t n)
 {

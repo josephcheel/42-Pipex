@@ -9,7 +9,7 @@
 /*   Updated: 2022/08/04 13:21:46 by jcheel-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "pipex.h"
+#include "../inc/pipex.h"
 
 static int	wordcounter(char const *s, char c)
 {

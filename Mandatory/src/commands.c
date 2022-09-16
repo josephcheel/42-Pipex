@@ -9,7 +9,7 @@
 /*   Updated: 2022/06/30 12:32:41 by jcheel-n         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-#include "pipex.h"
+#include "../inc/pipex.h"
 
 int	commandline(char *str1, char *str2)
 {
