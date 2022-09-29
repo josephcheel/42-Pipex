@@ -78,11 +78,9 @@ char	*ft_strjoin(char const *s1, char const *s2)
 
 char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 {
-	int				i;
 	size_t			needlelen;
 
 	needlelen = ft_strlen(needle);
-	i = 0;
 	if (!needle)
 		return ((char *)haystack);
 	while (*haystack && len > needlelen

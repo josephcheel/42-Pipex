@@ -26,12 +26,10 @@ OBJ_DIR	= obj/
 
 INCLUDE = -I $(INC_DIR)
 
-PPX_SRC = pipex.c \
-		errors.c \
-		commands.c \
+PPX_SRC	=	pipex.c errors.c commands.c \
 		pipex_utils.c pipex_utils_2.c pipex_utils_3.c \
 		script_arg.c ft_split_script.c ft_split_quotes.c \
-		execution.c ignore_backslash.c is_file_extension.c
+		execution.c ignore_backslash.c
 
 SRCS	+= $(addprefix $(MDT_DIR), $(addprefix $(SRC_DIR), $(PPX_SRC)))
 OBJS	= $(addprefix $(OBJ_DIR), $(SRCS:.c=.o))
@@ -40,7 +38,7 @@ DEPS	= $(addsuffix .d, $(basename $(OBJS)))
 $(OBJ_DIR)%.o: %.c Makefile
 	@$(MD) $(dir $@)
 	@echo "	Compiling: $<"
-	@$(CC) -MT $@ -MMD $(CFLAGS) $(INCLUDE) -c $< -o $@
+	@$(CC) -MT $@ -MMD -MP $(CFLAGS) $(INCLUDE) -c $< -o $@
 
 all: ${NAME}
 
